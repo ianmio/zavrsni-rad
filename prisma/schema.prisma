@@ -1,0 +1,62 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model Tour {
+  id                   Int       @id @default(autoincrement())
+  name                 String
+  description          String
+  latitude             Float
+  longitude            Float
+  address              String
+  pricePerPersonInEuro Decimal
+  maxGuests            Int
+  durationInMinutes    Int
+  createdAt            DateTime  @default(now())
+  updatedAt            DateTime  @updatedAt
+  booking              Booking[]
+  startTime            String
+  imageUrl             String
+}
+
+model Booking {
+  id               Int           @id @default(autoincrement())
+  tourId           Int
+  tour             Tour          @relation(fields: [tourId], references: [id])
+  numberOfGuests   Int
+  totalPriceInEuro Decimal
+  bookedDate       DateTime
+  paymentStatus    PaymentStatus
+  stripeSessionId  String?
+  createdAt        DateTime      @default(now())
+  user             User          @relation(fields: [userId], references: [id])
+  userId           String        @db.Uuid
+}
+
+model User {
+  id        String    @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  name      String    @default("NO_NAME")
+  email     String    @unique(map: "user_email_idx")
+  password  String?
+  role      Role      @default(USER)
+  createdAt DateTime  @default(now()) @db.Timestamp(6)
+  updatedAt DateTime  @updatedAt
+  Booking   Booking[]
+}
+
+enum PaymentStatus {
+  COMPLETED
+  FAILED
+  REFUNDED
+}
+
+enum Role {
+  ADMIN
+  USER
+}

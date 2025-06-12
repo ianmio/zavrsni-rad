@@ -1,0 +1,11 @@
+{
+  "Homepage": {
+    "titleTextOne": "welcome to",
+    "titleTextTwo": "split adventures"
+  },
+  "Navigation": {
+    "tours": "tours",
+    "contact": "contact",
+    "home": "home"
+  }
+}
