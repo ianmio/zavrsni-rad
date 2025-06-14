@@ -36,7 +36,7 @@ async function sendAdminNotificationEmail(
     to: env.TO_GMAIL,
     subject: 'New Booking Received',
     html: `
-      <p>Hello Dario,</p>
+      <p>Hello Ian,</p>
       <p>A new booking has been made with the following details:</p>
       <p><strong>Customer Name:</strong> ${customerName}</p>
       <p><strong>Email:</strong> ${customerEmail}</p>
@@ -75,7 +75,6 @@ async function sendConfirmationEmail(
       <p>${tourDetails}</p>
       <p>We look forward to seeing you soon!</p>
       <p>Best regards,</p>
-      <p>The Led Light  Team</p>
     `,
   };
 
