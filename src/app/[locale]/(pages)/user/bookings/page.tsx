@@ -6,7 +6,7 @@ const MyBookings = async () => {
   const session = await auth();
 
   if (!session?.user.id) {
-    redirect('/signin');
+    redirect('/sign-in');
   }
 
   const bookings = await getMyBookings(session.user.id);
