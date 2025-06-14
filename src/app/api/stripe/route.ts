@@ -91,12 +91,14 @@ export async function POST(req: Request) {
   const body = await req.text();
   const sig = (await headers()).get('Stripe-Signature') as string;
   const webhookSecret = env.STRIPE_WEBHOOK_SECRET;
-
+  console.log(sig);
   let event: Stripe.Event;
   try {
     if (!sig || !webhookSecret) {
       throw new Error('Missing Stripe signature or webhook secret');
     }
+      console.log(sig);
+
     event = stripe.webhooks.constructEvent(body, sig, webhookSecret);
   } catch (err) {
     console.log(err);
