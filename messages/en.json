@@ -1,0 +1,73 @@
+{
+  "Homepage": {
+    "titleTextOne": "welcome to",
+    "titleTextTwo": "split adventures"
+  },
+  "Navigation": {
+    "tours": "tours",
+    "contact": "contact",
+    "home": "home",
+    "location": "location"
+  },
+  "Tours": {
+    "titleTextOne": "explore",
+    "titleTextTwo": "tours",
+    "choose": "choose the tour",
+    "many-options": "many options",
+    "description": "Experience the magic of our LED light tours by day or night. Nights offer an unforgettable glow on the water."
+  },
+  "About": {
+    "titleTextOne": "about",
+    "titleTextTwo": "us",
+    "description": "Whether you're soaring above canyons on a zip line, kayaking through crystal-clear waters, or exploring rugged trails on a quad bike, every Split Adventures tour is designed to thrill. Join us and discover the best of Split through action-packed experiences and unforgettable moments."
+  },
+  "Contact": {
+    "titleTextOne": "reach",
+    "titleTextTwo": "out",
+    "description": "From wandering ancient Diocletian’s Palace to soaking up sunsets on the Riva, our time in Split was packed with unforgettable moments. Laughter echoed through cobblestone streets, spontaneous swims turned into lasting memories, and every corner brought a new story. Split wasn’t just a destination – it was an adventure we lived together.",
+    "questions": "GOT ANY QUESTIONS?",
+    "reach-out": "REACH OUT",
+    "subtitle": "Don't hesitate to get in touch with us for support or more information."
+  },
+  "Form": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send-message": "Send message",
+    "name-error": "Name is required",
+    "email-error": "Email is required",
+    "email-invalid-error": "Email is invalid",
+    "message-error": "Message is required",
+    "contact-title": "Contact via e-mail"
+  },
+  "Common": {
+    "address": "address",
+    "location": "location",
+    "whatsapp": "We're on whatsapp",
+    "text": "We are here to assist you with any inquiries or support you need. Whether it's about our services, locations, or anything else, feel free to reach out, and we'll be happy to help.",
+    "sign-in": "Sign in",
+    "my-bookings": "My bookings",
+    "sign-out": "Sign out",
+    "no-bookings": "You have no bookings yet.",
+    "tour-name": "Tour Name",
+    "booked-date": "Booked Date",
+    "number-of-guests": "Number of Guests",
+    "total-price": "Total Price (€)",
+    "payment-status": "Payment Status",
+    "email": "Email",
+    "password": "Password",
+    "no-account": "Don't have an account?",
+    "name": "Name",
+    "confirm-password": "Confirm password",
+    "sign-up": "Sign up",
+    "has-account": "Already have an account?",
+    "book-now": "Book now",
+    "available-slots": "Available Slots",
+    "people": "People",
+    "summary": "Summary",
+    "date": "Date",
+    "total": "Total",
+    "checkout": "Checkout",
+    "explore": "Explore"
+  }
+}

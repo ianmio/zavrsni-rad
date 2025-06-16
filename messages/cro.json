@@ -1,0 +1,73 @@
+{
+  "Homepage": {
+    "titleTextOne": "dobrodošli u",
+    "titleTextTwo": "split adventures"
+  },
+  "Navigation": {
+    "tours": "ture",
+    "contact": "kontakt",
+    "home": "početna",
+    "location": "lokacija"
+  },
+  "Tours": {
+    "titleTextOne": "istraži",
+    "titleTextTwo": "ture",
+    "choose": "odaberi turu",
+    "many-options": "mnoge opcije",
+    "description": "Doživite čaroliju naših LED tura danju ili noću. Noći donose nezaboravan sjaj na vodi."
+  },
+  "About": {
+    "titleTextOne": "o",
+    "titleTextTwo": "nama",
+    "description": "Bilo da letite ziplineom iznad kanjona, veslate kajakom kroz kristalno čisto more ili istražujete staze na quadovima, svaka tura Split Adventuresa donosi uzbuđenje. Pridružite nam se i otkrijte najbolje od Splita kroz avanturistička i nezaboravna iskustva."
+  },
+  "Contact": {
+    "titleTextOne": "kontaktiraj",
+    "titleTextTwo": "nas",
+    "description": "Od istraživanja Dioklecijanove palače do zalazaka sunca na Rivi – naša iskustva u Splitu bila su puna nezaboravnih trenutaka. Smijeh se odjekivao kaldrmom, spontana kupanja postala su trajne uspomene, a svaki kutak donio je novu priču. Split nije bio samo destinacija – bio je avantura koju smo živjeli zajedno.",
+    "questions": "IMATE PITANJA?",
+    "reach-out": "JAVITE SE",
+    "subtitle": "Ne ustručavajte se kontaktirati nas za podršku ili dodatne informacije."
+  },
+  "Form": {
+    "name": "Ime",
+    "email": "Email",
+    "message": "Poruka",
+    "send-message": "Pošalji poruku",
+    "name-error": "Ime je obavezno",
+    "email-error": "Email je obavezan",
+    "email-invalid-error": "Email nije ispravan",
+    "message-error": "Poruka je obavezna",
+    "contact-title": "Kontakt putem e-maila"
+  },
+  "Common": {
+    "address": "adresa",
+    "location": "lokacija",
+    "whatsapp": "Na WhatsAppu smo",
+    "text": "Tu smo da vam pomognemo s bilo kakvim pitanjima ili podrškom. Bilo da se radi o našim uslugama, lokacijama ili bilo čemu drugome, slobodno nam se obratite i rado ćemo pomoći.",
+    "sign-in": "Prijava",
+    "my-bookings": "Moje rezervacije",
+    "sign-out": "Odjava",
+    "no-bookings": "Još nemate rezervacija.",
+    "tour-name": "Naziv ture",
+    "booked-date": "Datum rezervacije",
+    "number-of-guests": "Broj gostiju",
+    "total-price": "Ukupna cijena (€)",
+    "payment-status": "Status uplate",
+    "email": "Email",
+    "password": "Lozinka",
+    "no-account": "Nemate račun?",
+    "name": "Ime",
+    "confirm-password": "Potvrdi lozinku",
+    "sign-up": "Registracija",
+    "has-account": "Već imate račun?",
+    "book-now": "Rezerviraj sada",
+    "available-slots": "Dostupni termini",
+    "people": "Osobe",
+    "summary": "Sažetak",
+    "date": "Datum",
+    "total": "Ukupno",
+    "checkout": "Plaćanje",
+    "explore": "Istraži"
+  }
+}
