@@ -77,7 +77,7 @@ export async function createCheckoutSession(input: CreateCheckoutSessionProps) {
               images: tour.imageUrl ? [tour.imageUrl] : [],
             },
             unit_amount: convertEuroToCents(
-              tour.pricePerPersonInEuro.toNumber()
+              tour.pricePerPersonInEuro as any
             ),
           },
           quantity: numberOfGuests,
