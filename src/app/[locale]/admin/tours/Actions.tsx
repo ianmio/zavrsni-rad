@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 import { deleteTour } from '@server/actions/tour';
-
+//botuni za edit i delete ako ocemo edit vodi nas na edit dio,ako hocemo delete prvo provjerava je li ima reza napravljenih ako nema onda mozemo delete te nas jos jedan put pita da li smo sigurni
 const Actions = ({
   tourId,
   hasBookings,
@@ -31,14 +31,14 @@ const Actions = ({
           Edit
         </button>
       </Link>
-      {!hasBookings && (
+      
         <button
           className="px-3 py-1 bg-red-500 text-white-100 rounded "
           onClick={() => setIsModalOpen(true)} // Open the confirmation modal
         >
           Delete
         </button>
-      )}
+      
 
       {/* Confirmation Modal */}
       {isModalOpen && (
