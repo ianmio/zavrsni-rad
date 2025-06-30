@@ -9,7 +9,9 @@ const MyBookings = async () => {
   const t = await getTranslations('Common');
   //provjerava je li korisnik logiran da uopce moze uc u my bookings ako nie redirecta ga na sign in ako je uzima sve booking iz tablice po id korisnika i slaze ih u tablicu
   if (!session?.user.id) {
-    redirect('/signin');
+    redirect('/sign-in');
+    
+
   }
 
   const bookings = await getMyBookings(session.user.id);
